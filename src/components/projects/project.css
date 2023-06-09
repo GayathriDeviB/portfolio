@@ -1,0 +1,69 @@
+button > img {
+  width: 15px;
+}
+.proj_info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.proj_info button {
+  border: outset;
+  background-color: wheat;
+  padding: 10px;
+}
+.proj_info button:active {
+  background-image: linear-gradient(sandybrown, khaki);
+  transform: translateY(4px);
+}
+h3 {
+  color: brown;
+}
+.project1,
+.project2,
+.project3 {
+  border: inset;
+  padding: 20px;
+  height: 250px;
+  width: 350px;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.project1:hover,
+.project2:hover,
+.project3:hover {
+  background-image: radial-gradient(sandybrown, brown);
+}
+.projects {
+  display: flex;
+  gap: 50px;
+}
+.projects img {
+  width: 50px;
+  height: 50px;
+}
+
+.project_main {
+  display: flex;
+  justify-content: space-evenly;
+}
+@media (max-width: 685px) {
+  .footer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media (max-width: 1019px) {
+  .footer {
+    flex-wrap: wrap;
+    /* justify-content: center; */
+  }
+}
+@media (max-width: 480px) {
+  .footer {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}

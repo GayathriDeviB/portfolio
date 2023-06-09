@@ -1,0 +1,46 @@
+.head1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+.headermain > .head1 nav a:hover {
+  color: rgb(250, 148, 15);
+  font-size: 25px;
+  background-color: gray;
+}
+.headermain > .head1 nav a:active {
+  color: black;
+}
+.headermain > .head1 nav {
+  display: flex;
+  gap: 50px;
+  font-size: 20px;
+}
+.head1 nav a {
+  color: brown;
+  text-decoration: none;
+}
+.headermain h2 {
+  text-align: center;
+  color: saddlebrown;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  padding: 10px;
+}
+.headermain {
+  background-image: linear-gradient(burlywood,khaki,white);
+  position: sticky;
+  top: 0;
+}
+.head1 > button {
+  background-color: burlywood;
+  padding: 10px;
+  border: groove sandybrown;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+.head1 > button:hover {
+  background-color: khaki;
+}
+.head1 > button:active {
+  background-color: seashell;
+}

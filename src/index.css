@@ -1,0 +1,9 @@
+body {
+  background-image: linear-gradient(burlywood, khaki, white);
+  font-family: cursive;
+}
+.proj_rev {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

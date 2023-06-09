@@ -1,0 +1,32 @@
+.portfolioprojects_main img {
+  width: 100px;
+  height: 100px;
+}
+.portfolioprojects_main a {
+  text-decoration: none;
+  color: sienna;
+}
+.portfolioprojects_main a:hover {
+  color: coral;
+}
+.portfolioprojects_main a:active {
+  color: black;
+}
+.portfolioprojects_main > h1 {
+  text-shadow: 2px 2px 2px sandybrown;
+}
+.portfolio_project1,
+.portfolio_project2,
+.portfolio_project3 {
+  border: outset;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightgoldenrodyellow;
+}
+.portfolio_allprojects {
+  display: flex;
+  justify-content: space-around;
+  /* padding: 15px; */
+}
