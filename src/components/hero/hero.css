@@ -23,23 +23,23 @@
     width: 100%;
     align-items: center;
   }
-  .background {
+  /* .background {
     height: 300px;
-  }
+  } */
 }
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
   .hero_main {
     flex-wrap: wrap;
     margin-right: 0;
   }
-}
+} */
 @media (max-width: 480px) {
-  .profile {
+  /* .profile {
     width: 100%;
     align-items: center;
-  }
-  .background {
+  } */
+  /* .background {
     padding: 20px;
     height: 300px;
-  }
+  } */
 }

@@ -44,3 +44,14 @@
   align-items: center;
   background-image: linear-gradient(burlywood, khaki, white);
 }
+@media (max-width: 480px) {
+  .conclusion {
+    flex-wrap: wrap;
+  }
+  .conclusion > nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}

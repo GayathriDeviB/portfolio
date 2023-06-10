@@ -21,3 +21,8 @@ h1 {
   color: brown;
   text-shadow: 2px 2px sandybrown;
 }
+@media (max-width: 480px) {
+  .edu {
+    flex-wrap: wrap;
+  }
+}

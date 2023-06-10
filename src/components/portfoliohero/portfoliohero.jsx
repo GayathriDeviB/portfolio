@@ -17,8 +17,6 @@ const Portfoliohero = () => {
     <Slider {...Settings}>
       <div>
         <div className="portfolio_heromain_one">
-          <h1>B GAYATHRI DEVI</h1>
-          <h2>FRESHER</h2>
           <h2>
             <i> "If it scares you, it might be a good thing to try."</i>
           </h2>

@@ -21,8 +21,8 @@ const Portfolioprojects = () => {
         </div>
         <div className="portfolio_project3">
           <img src={project} alt="icon" />
-          <Link to="/newsfeed">
-            <h1>NEWS FEED</h1>
+          <Link to="/portfolioproject">
+            <h1>PORTFOLIO</h1>
           </Link>
         </div>
       </div>

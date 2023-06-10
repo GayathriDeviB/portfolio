@@ -10,7 +10,8 @@ import Certification from "./pages/certification";
 import Portfoliopage from "./pages/portfolio";
 import Medialander from "./pages/medialander";
 import Socialnetwork from "./pages/socialnetwork";
-import Newsfeed from "./pages/newsfeed";
+import Portfolio from "./pages/portfolioproject";
+
 function App() {
   return (
     <>
@@ -22,7 +23,7 @@ function App() {
           <Route path="/portfolio" element={<Portfoliopage />} />
           <Route path="/medialander" element={<Medialander />} />
           <Route path="/socialnetwork" element={<Socialnetwork />} />
-          <Route path="/newsfeed" element={<Newsfeed />} />
+          <Route path="/portfolioproject" element={<Portfolio />} />
         </Routes>
         <Footer />
       </div>

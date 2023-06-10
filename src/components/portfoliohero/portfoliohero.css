@@ -8,14 +8,9 @@
   align-items: center;
   padding: 200px;
 }
-.portfolio_heromain_one h1,
 .portfolio_heromain_one h2,
 .portfolio_heromain_one h3 {
   color: white;
-}
-.portfolio_heromain_one > h1 {
-  text-shadow: -1px 0 peachpuff, 0 1px peachpuff, 1px 0 peachpuff,
-    0 -1px peachpuff;
 }
 .portfolio_heromain_two {
   background-image: url(../../assets/images/pfbgimg2.jpg);
@@ -33,4 +28,9 @@
   position: relative;
   z-index: -1;
   overflow: hidden;
+}
+@media (max-width: 480px) {
+  .portfolio_heromain_one h2 {
+    font-size: 14px;
+  }
 }

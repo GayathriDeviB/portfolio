@@ -30,3 +30,25 @@
   justify-content: space-around;
   /* padding: 15px; */
 }
+@media (max-width: 768px) {
+  .portfolio_allprojects {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .portfolio_project1,
+  .portfolio_project2,
+  .portfolio_project3 {
+    width: 600px;
+  }
+}
+@media (max-width: 480px) {
+  .portfolio_allprojects {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .portfolio_project1,
+  .portfolio_project2,
+  .portfolio_project3 {
+    width: 460px;
+  }
+}

@@ -6,7 +6,7 @@ import linkedin from "../../assets/icons/linkedin.png";
 import telegram from "../../assets/icons/telegram.png";
 import twitter from "../../assets/icons/twitter.png";
 import whatsapp from "../../assets/icons/whatsapp.png";
-import email from "../../assets/icons/email.png";
+import email from "../../assets/icons/email.gif";
 import "./footer.css";
 import { Link } from "react-router-dom";
 const Footer = () => {

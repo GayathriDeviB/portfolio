@@ -1,18 +1,19 @@
 import React from "react";
 import "./project3content.css";
-import newsfeed1 from "../../../assets/images/newsfeed1.gif";
+import portfolio1 from "../../../assets/images/portfolio1.gif";
 const Project3content = () => {
   return (
     <div className="project3_allcontent">
-      <h1>NEWS FEED</h1>
+      <h1>PORTFOLIO</h1>
       <div className="project3content_info">
-        <img src={newsfeed1} alt="image" />
+        <img src={portfolio1} alt="image" />
         <p>
-          Feed is the constantly updating list of stories in the middle of your
-          home page. Feed includes status updates, photos, videos, links, app
-          activity and likes from people, Pages and groups that you follow on
-          Facebook.Share to News Feed: Opens the post in a new window, allows
-          you to add additional text to your message.
+          A strong web portfolio is crucial to a successful career as a web
+          developer. Since a web developer’s main job is creating websites and
+          applications, an online portfolio will help showcase our technical
+          skills and attract potential clients. However, the web development job
+          market is highly competitive, so designing an attention-grabbing site
+          can be challenging.
         </p>
       </div>
     </div>

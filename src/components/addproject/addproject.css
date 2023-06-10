@@ -15,7 +15,6 @@ form {
 }
 .addprojectmain {
   display: flex;
-  align-items: center;
   justify-content: center;
   gap: 30px;
   border: 2px solid black;
@@ -38,4 +37,10 @@ form {
 input[type="text"],
 textarea {
   color: black;
+}
+@media (max-width: 480px) {
+  .addprojectclose {
+    display: flex;
+    justify-content: center;
+  }
 }

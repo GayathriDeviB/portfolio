@@ -54,18 +54,30 @@
   display: none;
   background-image: linear-gradient(burlywood, khaki, white);
   position: absolute;
-  top: 90px;
+  top: 100px;
   left: 0;
   width: 100vw;
   height: auto;
-  padding: 20px;
-  font-size: 20px;
+  padding: 15px;
+  font-size: 15px;
 }
 .sidebar_content {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
+}
+@media (max-width: 768px) {
+  .head1 {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .header_main > .head1 nav {
+    gap: 180px;
+  }
+  .head1 > button {
+    display: none;
+  }
 }
 @media (max-width: 700px) {
   .hamimage {
@@ -78,9 +90,8 @@
     display: none;
   }
 }
-@media (max-width: 685px) {
-  .head1 {
-    flex-wrap: wrap;
-    justify-content: center;
+@media (max-width: 480px) {
+  .head1 > button {
+    display: none;
   }
 }

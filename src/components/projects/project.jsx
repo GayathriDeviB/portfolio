@@ -12,7 +12,7 @@ const Project = () => {
       <div className="proj_info">
         <button>Media Lander</button>
         <button>Social Network</button>
-        <button>News Feed</button>
+        <button>Portfolio</button>
         <button onClick={() => setAddProjectOpen(true)}>
           <img src={add} alt="add.png" />
           Add Project
@@ -39,11 +39,12 @@ const Project = () => {
         </div>
         <div className="project3">
           <img src={projicon3} alt="image" />
-          <h3>NEWS FEED</h3>
+          <h3>PORTFOLIO</h3>
           <p>
-            To create a simple news feed on social media app using html code by
-            adding some styles,colors using css and get into that by clicking
-            any option using js.
+            To create a simple personal profile which includes my basic
+            information related to education,the projects I did, using html
+            code, adding some styles using css and get into that by clicking any
+            option using js.
           </p>
         </div>
       </div>
